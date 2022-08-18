@@ -1,0 +1,95 @@
+*{
+    font-family:'Roboto' ;
+    margin: 0px 3px 0px 3px;
+    padding: 0;
+}
+/* Home */
+
+.fondo{
+    background-color: white;
+}
+.bannerImage {
+  width: 100%;
+  height: 150px;
+}
+
+
+.banner{
+    line-height: 0;
+}
+
+.title{
+    position: relative;
+    top: 100px;
+    left: 30px;
+}
+
+.menu{
+    text-align: center;
+}
+
+.menu ul li{
+        margin-top: 20px;
+      display: inline-block;
+      font-weight: 1200;
+      text-transform: uppercase;
+      font-weight: bold;
+}
+
+.menu ul li a {
+      font-size: x-large;
+      margin-right: 10px;
+      text-decoration: none;
+      color: black;
+}
+hr {
+	border: 0;
+	border-top: 1px solid #010000;
+    margin: 5px 120px 0px 120px;
+
+}
+.subtitulo{
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 1200;
+}
+.descripcion{
+    text-align: justify;
+}
+
+.column {
+  float: left;
+  width: 45%;
+    margin: 30px 0px 30px 30px;
+}
+.column1 {
+  float: right;
+  width: 50%;
+  margin: 30px 50px 0px 0px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.nuestrosTrabajos{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.pieDePagina{
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: black;
+    color: white;
+}
+
+
+/* Servicios */
+.servicioImagen{
+    width: 500px;
+    height: 400px;
+}
